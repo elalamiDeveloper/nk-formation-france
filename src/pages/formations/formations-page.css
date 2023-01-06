@@ -1,0 +1,12 @@
+.formations-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formations-page h1 {
+  font-size: 6.8rem;
+  color: #1a4264;
+  text-align: center;
+  padding: 9rem;
+}
