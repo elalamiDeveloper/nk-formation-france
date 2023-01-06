@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nk-formation-france/static/css/main.92085e50.css",
-    "main.js": "/nk-formation-france/static/js/main.9cbe9039.js",
+    "main.js": "/nk-formation-france/static/js/main.8fa39a34.js",
     "static/media/1.png": "/nk-formation-france/static/media/1.41ed3cb02aea75755d4a.png",
     "static/media/2.png": "/nk-formation-france/static/media/2.b5eaab3965c15f3640e5.png",
     "static/media/hero-img.jpg": "/nk-formation-france/static/media/hero-img.4c36da4e49705651861d.jpg",
@@ -11,10 +11,10 @@
     "static/media/logo.png": "/nk-formation-france/static/media/logo.acc660bef5a2de7244d6.png",
     "index.html": "/nk-formation-france/index.html",
     "main.92085e50.css.map": "/nk-formation-france/static/css/main.92085e50.css.map",
-    "main.9cbe9039.js.map": "/nk-formation-france/static/js/main.9cbe9039.js.map"
+    "main.8fa39a34.js.map": "/nk-formation-france/static/js/main.8fa39a34.js.map"
   },
   "entrypoints": [
     "static/css/main.92085e50.css",
-    "static/js/main.9cbe9039.js"
+    "static/js/main.8fa39a34.js"
   ]
 }
