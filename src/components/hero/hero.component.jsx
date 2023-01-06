@@ -1,6 +1,5 @@
 import './hero.styles.css';
 
-import profilImg from '../../assets/profil.png';
 import heroImg from '../../assets/hero-img.jpg';
 
 const Hero = () => {
