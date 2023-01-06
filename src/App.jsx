@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 
-import NavBar from './components/navigation/navigation.component';
+import Header from './components/sections/header/Header';
 import HomePage from './pages/home/home-page.component';
 import FormationsPage from './pages/formations/FormationsPage';
 import AboutUsPage from './pages/about-us/AboutUs';
@@ -12,20 +12,13 @@ import Footer from './components/footer/footer.component';
 function App() {
   return (
     <div className="app">
-      <NavBar />
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/formations" element={<FormationsPage />}></Route>
         <Route path="/about-us" element={<AboutUsPage />}></Route>
         <Route path="/connect" element={<ConnectPage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
-        <Route
-          path="/facebook"
-          element={() => {
-            window.location.href = 'https://example.com/1234';
-            return null;
-          }}
-        />
       </Routes>
       <Connect />
       <Footer />

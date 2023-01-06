@@ -9,7 +9,8 @@ const Hero = () => {
         <div className="hero-section_text">
           <h1>Nouvelle année, nouvelles évolutions de carrière</h1>
           <p>
-            Atteignez vos objectifs d'apprentissage et profitez de nos formation
+            Atteignez vos objectifs d'apprentissage et profitez de nos
+            formations
             <span className="gratuit"> Gratuitement</span> via votre CPF
           </p>
 

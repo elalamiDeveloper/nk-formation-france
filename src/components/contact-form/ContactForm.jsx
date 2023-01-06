@@ -62,7 +62,7 @@ const ContactForm = () => {
     <form action="" className="contact-page-form" onSubmit={onSubmitHandler}>
       <h3>Écrivez-nous.</h3>
       <div className="input-team">
-        <label htmlFor="prenom">Prenom</label>
+        <label htmlFor="prenom">Prénom</label>
         <input
           type="text"
           name="prenom"
@@ -95,7 +95,7 @@ const ContactForm = () => {
       </div>
 
       <div className="input-team">
-        <label htmlFor="tel">Numero de telephone</label>
+        <label htmlFor="tel">Numéro de téléphone</label>
         <input
           type="tel"
           name="tel"

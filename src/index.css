@@ -54,3 +54,21 @@ input {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+@media (max-width: 1350px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+
+@media (max-width: 1225px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
+@media (max-width: 1095px) {
+  html {
+    font-size: 47.5%;
+  }
+}

@@ -16,7 +16,7 @@ const Connect = () => {
           <p className="desciption">Vous avez des questions ? </p>
 
           <p className="desciption">
-            Contactez-moi directement pour plus d’informations !
+            Contactez-nous directement pour plus d’informations !
           </p>
         </div>
 
