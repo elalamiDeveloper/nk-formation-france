@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/nk-formation-france" element={<HomePage />}></Route>
         <Route path="/formations" element={<FormationsPage />}></Route>
         <Route path="/about-us" element={<AboutUsPage />}></Route>
         <Route path="/connect" element={<ConnectPage />}></Route>
