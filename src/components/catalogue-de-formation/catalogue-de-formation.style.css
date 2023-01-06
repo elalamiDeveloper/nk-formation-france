@@ -1,0 +1,77 @@
+.section-catalogue-de-formation {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 2.5rem;
+}
+
+.section-catalogue-de-formation .text {
+  grid-column: 1/-1;
+}
+
+.section-catalogue-de-formation .text h2 {
+  font-size: 4.2rem;
+  margin-bottom: 1rem;
+  color: #1a4264;
+}
+
+.section-catalogue-de-formation .text p {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.list-formation {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.item-formation {
+  width: calc(50% - 1.25rem);
+  min-width: 55rem;
+  padding: 2.5rem;
+  background: #1a4264;
+  color: #f6f6f6;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.item-formation h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #cca65c;
+  text-align: center;
+}
+
+.item-formation h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.item-formation p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.item-formation .details {
+  color: #1a4264;
+  width: fit-content;
+  margin: auto;
+  padding: 1.5rem 3rem;
+  border-radius: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+
+.item-formation .details:hover {
+  color: #f6f6f6;
+  background: #cca65c;
+}

@@ -1,0 +1,51 @@
+.image-slider .container {
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.left-arrow-styles {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 70px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  color: #cca65c;
+}
+
+.right-arrow-styles {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  font-size: 70px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  color: #cca65c;
+}
+
+.left-arrow-styles:hover {
+  transform: translate(-15px, -50%);
+}
+
+.right-arrow-styles:hover {
+  transform: translate(15px, -50%);
+}
+
+.dots-container-styles {
+  margin-top: -2.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dot-style {
+  margin: -3px 3px;
+  cursor: pointer;
+  font-size: 25px;
+}

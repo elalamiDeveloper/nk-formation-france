@@ -1,0 +1,96 @@
+/* .footer .container .contact > * {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.footer .container .contact .icon {
+  font-size: 2.4rem;
+}
+
+.footer .container .contact .icons-cm {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container .contact .icons-cm * {
+  color: #cca65c;
+  font-size: 5.2rem;
+}
+
+.contact h3 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #1a4264;
+}
+
+.contact div {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  text-align: center;
+  background: #1a4264;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+} */
+
+.footer {
+  border-top: 0.2px solid #ddd;
+}
+
+.footer-text {
+  padding: 2.5rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-item .information:first-of-type {
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  color: #1a4264;
+}
+
+.footer-text .social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.footer-text .social-media-icons .social-media-icon {
+  color: #cca65c;
+  font-size: 5.2rem;
+}
+
+.footer-text .information {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.information-icon {
+  font-size: 1.6rem;
+}
+
+.footer-copyright {
+  padding: 1rem;
+  background: #1a4264;
+  color: #f6f6f6;
+  font-size: 1.4rem;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.contact-page-text {
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.contact-page-text h1 {
+  font-size: 4.6rem;
+  color: #1a4264;
+}
+
+.contact-page-text p {
+  font-size: 2.2rem;
+}

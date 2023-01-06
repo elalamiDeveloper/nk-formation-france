@@ -1,0 +1,50 @@
+.contact-page-form {
+  flex: 1;
+  padding: 5rem;
+  background: #1a4264;
+  color: #f6f6f6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.contact-page-form h3 {
+  font-size: 3.2rem;
+  grid-column: 1/-1;
+}
+
+.input-team {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-team.msg {
+  grid-column: 1/-1;
+}
+
+.input-team label {
+  font-size: 1.6rem;
+}
+
+.input-team input {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border: 0.3rem solid #cca65c;
+  border-radius: 0.5rem;
+}
+
+.input-team.msg input {
+  min-height: 15rem;
+}
+
+.submit-btn {
+  grid-column: 1/-1;
+  padding: 1.5rem;
+  background: #cca65c;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.8rem;
+}

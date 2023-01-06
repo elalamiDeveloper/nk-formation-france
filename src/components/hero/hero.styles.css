@@ -1,0 +1,58 @@
+.hero-section {
+  background: #1a4264;
+}
+
+.hero-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section_text {
+  color: #fff;
+  max-width: 70rem;
+}
+
+.hero-section_text h1 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  max-width: 55rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-section_text p {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.hero-section_text .gratuit {
+  font-weight: 700;
+  color: #cca65c;
+}
+
+.hero-section_img {
+  width: 50rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.primary-button {
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  padding: 1.5rem 3rem;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: #1a4264;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background: #cca65c;
+  color: #fff;
+}
