@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 import './connect.css';
 
 import logo from '../../../assets/logo.png';
@@ -21,20 +19,44 @@ const Connect = () => {
             Contactez-moi directement pour plus d’informations !
           </p>
         </div>
-        <Link to="/" className="connect-section-link whatsapp-link">
-          WhatsApp
-        </Link>
-        <Link to="/" className="connect-section-link facebook-link">
-          Facebook
-        </Link>
 
-        <Link to="/" className="connect-section-link linkedin-link">
-          Linkedin
-        </Link>
+        <div className="connect-links">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://wa.me/0782714754"
+            className="connect-section-link whatsapp-link"
+          >
+            WhatsApp
+          </a>
 
-        <Link to="/" className="connect-section-link instagram-link">
-          Instagram
-        </Link>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=100088551595262"
+            className="connect-section-link facebook-link"
+          >
+            Facebook
+          </a>
+
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/company/nk-formation/"
+            className="connect-section-link linkedin-link"
+          >
+            Linkedin
+          </a>
+
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/nkformation/"
+            className="connect-section-link instagram-link"
+          >
+            Instagram
+          </a>
+        </div>
       </div>
     </div>
   );

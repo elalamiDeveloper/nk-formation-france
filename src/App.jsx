@@ -19,6 +19,13 @@ function App() {
         <Route path="/about-us" element={<AboutUsPage />}></Route>
         <Route path="/connect" element={<ConnectPage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
+        <Route
+          path="/facebook"
+          element={() => {
+            window.location.href = 'https://example.com/1234';
+            return null;
+          }}
+        />
       </Routes>
       <Connect />
       <Footer />
