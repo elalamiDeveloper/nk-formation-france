@@ -69,6 +69,7 @@ const ContactForm = () => {
           value={prenom}
           id="prenom"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -80,6 +81,7 @@ const ContactForm = () => {
           value={nom}
           id="nom"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -91,6 +93,7 @@ const ContactForm = () => {
           value={email}
           id="email"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -102,6 +105,7 @@ const ContactForm = () => {
           value={tel}
           id="tel"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -113,6 +117,7 @@ const ContactForm = () => {
           value={formationSouhaite}
           id="formation-souhaite"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -124,6 +129,7 @@ const ContactForm = () => {
           value={soldeCPF}
           id="solde-cpf"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -135,6 +141,7 @@ const ContactForm = () => {
           value={dateRappel}
           id="date-rappel"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -146,6 +153,7 @@ const ContactForm = () => {
           value={heureRappel}
           id="heure-rappel"
           onChange={onChangeHandler}
+          required
         />
       </div>
 
@@ -157,6 +165,7 @@ const ContactForm = () => {
           value={message}
           id="message"
           onChange={onChangeHandler}
+          required
         />
       </div>
 

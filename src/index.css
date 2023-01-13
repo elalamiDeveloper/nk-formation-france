@@ -42,6 +42,9 @@ button {
 
 input {
   outline: none;
+  font-family: inherit;
+  font-weight: 700;
+  color: #1a4264;
 }
 
 .container {

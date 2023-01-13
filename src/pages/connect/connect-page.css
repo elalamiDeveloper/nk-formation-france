@@ -30,8 +30,9 @@
 
 .connect-form .item input {
   padding: 1rem;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a4264;
   border: 0.2rem solid transparent;
   border-radius: 0.5rem;
 }
@@ -48,4 +49,11 @@
   border-radius: 0.5rem;
   color: #fff;
   font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .connect-form {
+    width: 85%;
+    grid-template-columns: 1fr;
+  }
 }

@@ -30,7 +30,7 @@
 
 .input-team input {
   padding: 1.5rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   border: 0.3rem solid #cca65c;
   border-radius: 0.5rem;
 }
@@ -47,4 +47,25 @@
   border-radius: 0.5rem;
   color: #fff;
   font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-page-form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .contact-page-form {
+    grid-template-columns: 1fr;
+  }
+
+  .input-team {
+    gap: 1rem;
+    font-size: 2.2rem;
+  }
+
+  .input-team label {
+    font-size: 1.8rem;
+  }
 }
