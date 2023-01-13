@@ -75,3 +75,9 @@
   color: #f6f6f6;
   background: #cca65c;
 }
+
+@media screen and (max-width: 700px) {
+  .section-catalogue-de-formation {
+    text-align: center;
+  }
+}

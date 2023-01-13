@@ -47,6 +47,7 @@
   .navbar {
     position: absolute;
     top: 100%;
+
     right: 5rem;
   }
 
@@ -64,17 +65,20 @@
   }
 
   .navbar-list {
-    background: rgba(0, 0, 0, 0.65);
-    padding: 1.5rem 0;
+    background: rgba(246, 246, 246, 0.9);
+    padding: 1.5rem 5rem 1.5rem 0;
     gap: 0;
     align-items: flex-start;
     flex-direction: column;
     z-index: 10;
     border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
   }
 
   .navbar-link,
   .navbar-link.connect-link {
+    font-size: 2.4rem;
+    color: #333;
     background: none;
     border: none;
     box-shadow: none;

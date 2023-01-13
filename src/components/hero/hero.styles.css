@@ -50,9 +50,31 @@
   border: none;
   outline: none;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .primary-button:hover {
   background: #cca65c;
   color: #fff;
+}
+
+@media screen and (max-width: 1050px) {
+  .hero-section .container {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .hero-section_img {
+    order: -1;
+  }
+
+  .hero-section_text h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .primary-button {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
 }
