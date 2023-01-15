@@ -2,7 +2,6 @@ import './formation-item.css';
 
 const FormationItem = ({ formation }) => {
   const { title, preRequis, objectifs } = formation;
-  console.log(title);
 
   return (
     <div className="formation-item">
