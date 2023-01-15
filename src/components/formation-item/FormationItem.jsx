@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './formation-item.css';
 
 const FormationItem = ({ formation }) => {
@@ -17,6 +18,9 @@ const FormationItem = ({ formation }) => {
         {objectifs.map((objectif) => (
           <p>{objectif}</p>
         ))}
+        <Link to="/contact" className="btn-details">
+          Détails de la formation
+        </Link>
       </div>
     </div>
   );

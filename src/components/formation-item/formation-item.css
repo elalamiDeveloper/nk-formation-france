@@ -1,20 +1,26 @@
-.gender-item .list-formations .formation-item {
+.formation-item {
   width: calc(50% - 2rem);
   background: #1a4264;
   color: #f6f6f6;
   border-radius: 1rem;
   box-shadow: 10px 10px #cca65c;
   padding: 3rem;
+  min-height: 11rem;
 }
 
-.gender-item .list-formations .formation-item h3 {
+.formation-item-ii {
+  display: flex;
+  flex-direction: column;
+}
+
+.formation-item h3 {
   padding: 1rem;
   font-size: 2.4rem;
   border-left: 0.5rem solid #cca65c;
   margin-bottom: 2.5rem;
 }
 
-.gender-item .list-formations .formation-item h4 {
+.formation-item h4 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   position: relative;
@@ -22,7 +28,7 @@
   padding-left: 1.5rem;
 }
 
-.gender-item .list-formations .formation-item h4::before {
+.formation-item h4::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -33,14 +39,14 @@
   background: #cca65c;
 }
 
-.gender-item .list-formations .formation-item p {
+.formation-item p {
   font-size: 1.6rem;
   position: relative;
   margin-left: 5rem;
   padding-left: 2.5rem;
 }
 
-.gender-item .list-formations .formation-item p::before {
+.formation-item p::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -52,12 +58,22 @@
   background: #cca65c;
 }
 
-.gender-item .list-formations .formation-item p:last-child {
+.formation-item p:last-child {
   margin-bottom: 1.5rem;
 }
 
+.btn-details {
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  background: #cca65c;
+  color: #f6f6f6;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 2.5rem auto 0;
+}
+
 @media screen and (max-width: 700px) {
-  .gender-item .list-formations .formation-item {
+  .formation-item {
     width: 90%;
   }
 }

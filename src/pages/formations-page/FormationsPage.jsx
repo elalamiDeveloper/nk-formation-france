@@ -25,8 +25,8 @@ const FormationsPage = () => {
       <div className="gender-item">
         <h2>Bureautique</h2>
         <ul className="list-formations">
-          {formationsBureautique.map((formation, i) => (
-            <FormationItem key={i} formation={formation} />
+          {formationsBureautique.map((formation) => (
+            <FormationItem key={formation.id} formation={formation} />
           ))}
         </ul>
       </div>
@@ -36,7 +36,7 @@ const FormationsPage = () => {
         <ul className="list-formations">
           {' '}
           {formationsManagement.map((formation, i) => (
-            <FormationItem key={i} formation={formation} />
+            <FormationItem key={formation.id} formation={formation} />
           ))}
         </ul>
       </div>
@@ -45,8 +45,8 @@ const FormationsPage = () => {
         <h2>Publication assistée par ordinateur (PAO)</h2>
         <ul className="list-formations">
           {' '}
-          {formationsPAO.map((formation, i) => (
-            <FormationItem key={i} formation={formation} />
+          {formationsPAO.map((formation) => (
+            <FormationItem key={formation.id} formation={formation} />
           ))}
         </ul>
       </div>
@@ -55,8 +55,8 @@ const FormationsPage = () => {
         <h2>Web</h2>
         <ul className="list-formations">
           {' '}
-          {formationsWeb.map((formation, i) => (
-            <FormationItem key={i} formation={formation} />
+          {formationsWeb.map((formation) => (
+            <FormationItem key={formation.id} formation={formation} />
           ))}
         </ul>
       </div>

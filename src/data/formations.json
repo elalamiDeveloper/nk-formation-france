@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "groupe": "web",
     "title": "Initiation + Approfondissement",
     "preRequis": [
@@ -16,6 +17,7 @@
   },
 
   {
+    "id": 1,
     "groupe": "bureautique",
     "title": "Formation Word : De l'initiation au perfectionnement",
     "preRequis": ["Connaissance de l'environnement PC"],
@@ -29,6 +31,7 @@
   },
 
   {
+    "id": 2,
     "groupe": "bureautique",
     "title": "Formation Excel : De l'initiation au perfectionnement",
     "preRequis": [
@@ -43,6 +46,7 @@
   },
 
   {
+    "id": 3,
     "groupe": "web",
     "title": "Formation Wordpress Perfectionnement",
     "preRequis": ["Connaissance de la création de site Web, de PHP, HTML/CSS"],
@@ -55,6 +59,7 @@
   },
 
   {
+    "id": 4,
     "groupe": "bureautique",
     "title": "Formation Illustrator De l'initiation au perfectionnement",
     "preRequis": ["Connaissance de l'environnement PC ou Mac"],
@@ -65,6 +70,7 @@
   },
 
   {
+    "id": 5,
     "groupe": "PAO",
     "title": "Formation InDesign De l'initiation au perfectionnement",
     "preRequis": ["Maîtrise de l'environnement PC ou Mac"],
@@ -75,6 +81,7 @@
   },
 
   {
+    "id": 6,
     "groupe": "management",
     "title": "Formation Management : Initiation + Approfondissement",
     "preRequis": ["Notions de management"],
@@ -86,6 +93,7 @@
   },
 
   {
+    "id": 7,
     "groupe": "PAO",
     "title": "Formation Photoshop De l'initiation au perfectionnement",
     "preRequis": ["Connaissance de l'environnement PC ou Mac"],
@@ -98,6 +106,7 @@
   },
 
   {
+    "id": 8,
     "groupe": "bureautique",
     "title": "Formation PowerPoint : De l'initiation au perfectionnement",
     "preRequis": ["Connaissance de l'environnement PC"],
@@ -109,6 +118,7 @@
   },
 
   {
+    "id": 9,
     "groupe": "PAO",
     "title": "Formation Premiere Pro De l'initiation au perfectionnement",
     "preRequis": [

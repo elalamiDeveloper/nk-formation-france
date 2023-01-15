@@ -1,6 +1,19 @@
 import './catalogue-de-formation.style.css';
+import formations from '../../data/formations.json';
+import { FormationItem } from '../../utils/componentsLinks';
+
+const randomFormations = (formations, nbrFormations) => {
+  const newFormations = [];
+  while (newFormations.length < nbrFormations) {
+    const a = Math.floor(Math.random() * formations.length);
+    if (!newFormations.some((formation) => formation.id === formations[a].id))
+      newFormations.push(formations[a]);
+  }
+  return newFormations;
+};
 
 const CatalogueDeFormation = () => {
+  const formationsDuo = randomFormations(formations, 2);
   return (
     <div className="container section-padding section-catalogue-de-formation">
       <div className="text">
@@ -8,29 +21,11 @@ const CatalogueDeFormation = () => {
         <p>faites votre choix parmi nos cours en ligne...</p>
       </div>
 
-      <ul className="list-formation">
-        <li className="item-formation">
-          <h3>Formation Wordpress</h3>
-          <h4>pré-requis</h4>
-          <p>Connaissance de la création de site Web, de PHP, HTML/CSS</p>
-          <h4>Résultat attendus</h4>
-          <p>Obtenir la certification “Formation Wordpress”</p>
-          <h4>Certification</h4>
-          <p>TP - Développeur Web</p>
-          <button className="details">Détails de la Formation</button>
-        </li>
-
-        <li className="item-formation">
-          <h3>Formation Wordpress</h3>
-          <h4>pré-requis</h4>
-          <p>Connaissance de la création de site Web, de PHP, HTML/CSS</p>
-          <h4>Résultat attendus</h4>
-          <p>Obtenir la certification “Formation Wordpress”</p>
-          <h4>Certification</h4>
-          <p>TP - Développeur Web</p>
-          <button className="details">Détails de la Formation</button>
-        </li>
-      </ul>
+      <div className="list-formation">
+        {formationsDuo.map((formation) => (
+          <FormationItem key={formation.id} formation={formation} />
+        ))}
+      </div>
     </div>
   );
 };
