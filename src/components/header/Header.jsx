@@ -11,6 +11,11 @@ const Header = () => {
     if (window.innerWidth > 1000) setnavBarHidden(false);
   }, []);
 
+  const hideNavigation = () => {
+    if (window.innerWidth < 1000 && navBarHidden === false)
+      setnavBarHidden(true);
+  };
+
   const onHideNavBar = () => {
     setnavBarHidden((lastVal) => !lastVal);
   };
@@ -18,7 +23,7 @@ const Header = () => {
   return (
     <header className="header">
       <Logo />
-      <Navbar navBarHidden={navBarHidden} />
+      <Navbar navBarHidden={navBarHidden} onHideNavigation={hideNavigation} />
       <MenuIcon className="menu-icon" onClick={onHideNavBar} />
     </header>
   );
