@@ -1,11 +1,9 @@
 .section-catalogue-de-formation {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: 2.5rem;
+  text-align: center;
 }
 
 .section-catalogue-de-formation .text {
-  grid-column: 1/-1;
+  margin-bottom: 5rem;
 }
 
 .section-catalogue-de-formation .text h2 {
@@ -20,7 +18,6 @@
 }
 
 .list-formation {
-  grid-column: 1/-1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +27,6 @@
 
 .item-formation {
   width: calc(50% - 1.25rem);
-  min-width: 55rem;
   padding: 2.5rem;
   background: #1a4264;
   color: #f6f6f6;
@@ -79,5 +75,9 @@
 @media screen and (max-width: 700px) {
   .section-catalogue-de-formation {
     text-align: center;
+  }
+
+  .item-formation {
+    width: 90%;
   }
 }

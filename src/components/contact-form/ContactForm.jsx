@@ -1,9 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
-
 import { useState } from 'react';
-import { addUser } from '../../utils/firebase/firebase';
 
 import './contact-form.css';
+import { addUser } from '../../data/firebase';
 
 const ContactForm = () => {
   const [inputFields, setInputFields] = useState({
@@ -159,14 +158,14 @@ const ContactForm = () => {
 
       <div className="input-team msg">
         <label htmlFor="message">Message</label>
-        <input
+        <textarea
           type="text"
           name="message"
           value={message}
           id="message"
           onChange={onChangeHandler}
           required
-        />
+        ></textarea>
       </div>
 
       <input type="submit" value="Envoyer" className="submit-btn" />

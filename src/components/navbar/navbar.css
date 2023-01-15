@@ -1,94 +1,70 @@
-.navbar {
+.navbar-container .navbar-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: relative;
-}
-
-.navbar-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 3rem;
+  gap: 2.5rem;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 600;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 100;
 }
 
-.navbar-link {
+.navbar-container .navbar-link {
   text-align: center;
   padding: 1.5rem 3rem;
   background: #1a4264;
   border: 0.2rem solid #cca65c;
   color: #f6f6f6;
   border-radius: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.navbar-link.connect-link {
+.navbar-container .navbar-link.connect-link {
   background: #cca65c;
   border: 0.2rem solid #1a4264;
 }
 
-.navbar-link:hover {
+.navbar-container .navbar-link:hover {
   background: #2f77b5;
 }
 
-.navbar-link.connect-link:hover {
+.navbar-container .navbar-link.connect-link:hover {
   background: #bb8f3a;
 }
 
-.navbar .menu-icon {
-  font-size: 7.5rem;
-  display: none;
-}
-
 @media (max-width: 1000px) {
-  .navbar {
-    position: absolute;
-    top: 100%;
-
-    right: 5rem;
-  }
-
-  .hidden {
+  .navbar-container .navbar-list.hidden {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
-  .navbar .menu-icon {
-    display: block;
-    z-index: 10;
+  .navbar-container .navbar-list {
     position: absolute;
-    top: -37%;
-    right: -3%;
-    cursor: pointer;
-  }
-
-  .navbar-list {
-    background: rgba(246, 246, 246, 0.9);
-    padding: 1.5rem 5rem 1.5rem 0;
-    gap: 0;
-    align-items: flex-start;
+    top: 100%;
+    right: 0;
+    width: 100%;
     flex-direction: column;
-    z-index: 10;
-    border-radius: 0 0 0.5rem 0.5rem;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    background: #f6f6f6;
+    border-top: 0.2rem solid #333;
+    border-bottom: 0.2rem solid #333;
+    gap: 0;
+    background: rgba(245, 245, 245, 0.8);
   }
 
-  .navbar-link,
-  .navbar-link.connect-link {
+  .navbar-container .navbar-item {
+    width: 100%;
     font-size: 2.4rem;
-    color: #333;
+  }
+
+  .navbar-container .navbar-link,
+  .navbar-container .navbar-link.connect-link {
+    padding: 2rem;
+    width: 100%;
     background: none;
     border: none;
+    color: #1a4264;
+    border-radius: 0;
     box-shadow: none;
-    text-align: left;
-  }
-
-  .navbar-link:hover,
-  .navbar-link.connect-link:hover {
-    background: none;
-    transform: translateX(10px);
-    color: #2f77b5;
   }
 }

@@ -1,0 +1,20 @@
+.header {
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  position: relative;
+}
+
+.header .menu-icon {
+  font-size: 7.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .header .menu-icon {
+    display: block;
+  }
+}

@@ -66,6 +66,7 @@
 
   .hero-section_img {
     order: -1;
+    width: 95%;
   }
 
   .hero-section_text h1 {

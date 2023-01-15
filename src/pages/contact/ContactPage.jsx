@@ -1,6 +1,5 @@
-import './contact.style.css';
-
-import ContactForm from '../../components/contact-form/ContactForm';
+import './contact-page.css';
+import { ContactForm } from '../../utils/componentsLinks';
 
 const ContactPage = () => {
   return (

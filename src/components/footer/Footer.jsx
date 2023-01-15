@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.png';
-import './footer.styles.css';
+import './footer.css';
 
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

@@ -7,6 +7,7 @@ const CatalogueDeFormation = () => {
         <h2>Acquérir des compétences professionnelles recherchées</h2>
         <p>faites votre choix parmi nos cours en ligne...</p>
       </div>
+
       <ul className="list-formation">
         <li className="item-formation">
           <h3>Formation Wordpress</h3>

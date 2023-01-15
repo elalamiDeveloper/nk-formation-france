@@ -1,7 +1,7 @@
-import HomePage from '../pages/home/home-page.component';
-import FormationsPage from '../pages/formations/FormationsPage';
+import HomePage from '../pages/home-page/HomePage';
+import FormationsPage from '../pages/formations-page/FormationsPage';
 import AboutUsPage from '../pages/about-us/AboutUs';
-import ContactPage from '../pages/contact/contact.component';
-import ConnectPage from '../pages/connect/ConnectPage';
+import ContactPage from '../pages/contact/ContactPage';
+import ConnectPage from '../pages/connect-page/ConnectPage';
 
 export { HomePage, FormationsPage, AboutUsPage, ContactPage, ConnectPage };

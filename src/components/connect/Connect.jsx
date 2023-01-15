@@ -1,6 +1,6 @@
 import './connect.css';
 
-import logo from '../../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 const Connect = () => {
   return (
