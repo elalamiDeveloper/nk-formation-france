@@ -1,0 +1,124 @@
+[
+  {
+    "groupe": "web",
+    "title": "Initiation + Approfondissement",
+    "preRequis": [
+      "Avoir les notions fondamentales sur Internet",
+      "Avoir une bonne connaissance d'outils bureautiques ou PAO"
+    ],
+    "objectifs": [
+      "Créer et gérer un site internet dynamique ou un blog avec le CMS WordPress",
+      "Apprendre les grands concepts de l'administration d'un site",
+      "Apprendre à personnaliser un thème ou un template WordPress",
+      "Savoir faire ses templates WordPress",
+      "Apprendre à utiliser des plug-ins"
+    ]
+  },
+
+  {
+    "groupe": "bureautique",
+    "title": "Formation Word : De l'initiation au perfectionnement",
+    "preRequis": ["Connaissance de l'environnement PC"],
+    "objectifs": [
+      "Pouvoir réaliser une lettre structurée",
+      "Savoir gérer la mise en page d'un document",
+      "Réaliser un publipostage ",
+      "Travailler avec les tables de référence",
+      "S'initier au langage VBA sur Word"
+    ]
+  },
+
+  {
+    "groupe": "bureautique",
+    "title": "Formation Excel : De l'initiation au perfectionnement",
+    "preRequis": [
+      "Connaissance de l'environnement PC",
+      "Avoir une bonne connaissance d'outils bureautiques ou PAO"
+    ],
+    "objectifs": [
+      "Connaître les principaux outils d'Excel",
+      "Pouvoir réaliser des calculs et utiliser les formules",
+      "Savoir manipuler les graphiques et les tableaux croisés dynamiques"
+    ]
+  },
+
+  {
+    "groupe": "web",
+    "title": "Formation Wordpress Perfectionnement",
+    "preRequis": ["Connaissance de la création de site Web, de PHP, HTML/CSS"],
+    "objectifs": [
+      "Découvrir la publication de contenus sur Wordpress",
+      "apprendre à utiliser les concepts de base et avancée de l'administration",
+      "Apprendre à personnaliser un thème Wordpress. Installer, paramétrer des plugins Wordpress",
+      "Apprendre les bases de la création de plugin wordpress"
+    ]
+  },
+
+  {
+    "groupe": "bureautique",
+    "title": "Formation Illustrator De l'initiation au perfectionnement",
+    "preRequis": ["Connaissance de l'environnement PC ou Mac"],
+    "objectifs": [
+      "Maîtriser les principales fonctionnalités d'Illustrator",
+      "Savoir créer et manipuler le vectoriel (illustration, plans, schémas) pour la PAO et le web"
+    ]
+  },
+
+  {
+    "groupe": "PAO",
+    "title": "Formation InDesign De l'initiation au perfectionnement",
+    "preRequis": ["Maîtrise de l'environnement PC ou Mac"],
+    "objectifs": [
+      "Maîtriser les principales fonctionnalités d'InDesign",
+      "Savoir concevoir une maquette, manipuler des objets, du texte et des images et mettre en production tous ces outils"
+    ]
+  },
+
+  {
+    "groupe": "management",
+    "title": "Formation Management : Initiation + Approfondissement",
+    "preRequis": ["Notions de management"],
+    "objectifs": [
+      "Maîtriser toutes les facettes du rôle de manager opérationnel",
+      "Opérer une prise de poste efficiente",
+      "Traduire la stratégie, les valeurs et la vision de l’entreprise afin de mobiliser l’équipe en communiquant des objectifs concrets, motivants et porteurs de sens"
+    ]
+  },
+
+  {
+    "groupe": "PAO",
+    "title": "Formation Photoshop De l'initiation au perfectionnement",
+    "preRequis": ["Connaissance de l'environnement PC ou Mac"],
+    "objectifs": [
+      "Maîtriser les principales fonctionnalités de Photoshop",
+      "Savoir effectuer des retouches sur une image",
+      "Concevoir des compositions et réaliser des effets gr ce aux calques et aux filtres",
+      "Maîtriser le travail non destructif dans Photoshop"
+    ]
+  },
+
+  {
+    "groupe": "bureautique",
+    "title": "Formation PowerPoint : De l'initiation au perfectionnement",
+    "preRequis": ["Connaissance de l'environnement PC"],
+    "objectifs": [
+      "Créer des présentations complètes",
+      "Réaliser des transitions et animations",
+      "Savoir synthétiser ses idées"
+    ]
+  },
+
+  {
+    "groupe": "PAO",
+    "title": "Formation Premiere Pro De l'initiation au perfectionnement",
+    "preRequis": [
+      "connaissance et pratique de l'environnement informatique Windows ou Mac",
+      "Connaissances minimales de l'image et de la vidéo"
+    ],
+    "objectifs": [
+      "Découvrir et appréhender le montage virtuel de la vidéo grâce à la maîtrise de l'utilisation des principales fonctionnalités d'Adobe Premiere",
+      "Initiation aux principes de base du montage audiovisuel.",
+      "Connaître les principaux termes techniques et dénominations du montage vidéo pour dialoguer efficacement avec les différents intervenants du domaine."
+    ]
+  }
+]

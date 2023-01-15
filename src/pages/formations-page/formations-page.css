@@ -1,12 +1,21 @@
-.formations-page {
+.formations-page h1 {
+  font-size: 5.8rem;
+  color: #1a4264;
+  text-align: center;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.gender-item h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+  margin-top: 7rem;
+}
+
+.gender-item .list-formations {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.formations-page h1 {
-  font-size: 6.8rem;
-  color: #1a4264;
-  text-align: center;
-  padding: 9rem;
+  gap: 4rem;
+  flex-wrap: wrap;
 }

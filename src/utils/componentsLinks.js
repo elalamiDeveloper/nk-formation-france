@@ -8,6 +8,7 @@ import ImageSlider from '../components/image-slider/ImageSlider';
 import ContactForm from '../components/contact-form/ContactForm';
 import Connect from '../components/connect/Connect';
 import Footer from '../components/footer/Footer';
+import FormationItem from '../components/formation-item/FormationItem';
 
 export {
   Header,
@@ -20,4 +21,5 @@ export {
   ContactForm,
   Connect,
   Footer,
+  FormationItem,
 };
