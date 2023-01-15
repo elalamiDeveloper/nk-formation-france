@@ -5,7 +5,11 @@ import { Logo, Navbar } from '../../utils/componentsLinks';
 import { MenuIcon } from '../../utils/iconsLinks';
 
 const Header = () => {
-  const [navBarHidden, setnavBarHidden] = useState(false);
+  const [navBarHidden, setnavBarHidden] = useState(true);
+
+  useEffect(() => {
+    if (window.innerWidth > 1000) setnavBarHidden(false);
+  }, []);
 
   const onHideNavBar = () => {
     setnavBarHidden((lastVal) => !lastVal);
