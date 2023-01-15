@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import './header.css';
 import { Logo, Navbar } from '../../utils/componentsLinks';
 import { MenuIcon } from '../../utils/iconsLinks';
 
 const Header = () => {
-  const [navBarHidden, setnavBarHidden] = useState(false);
+  const [navBarHidden, setnavBarHidden] = useState(true);
 
   const onHideNavBar = () => {
     setnavBarHidden((lastVal) => !lastVal);
