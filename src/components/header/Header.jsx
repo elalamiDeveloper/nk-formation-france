@@ -5,7 +5,7 @@ import { Logo, Navbar } from '../../utils/componentsLinks';
 import { MenuIcon } from '../../utils/iconsLinks';
 
 const Header = () => {
-  const [navBarHidden, setnavBarHidden] = useState(true);
+  const [navBarHidden, setnavBarHidden] = useState(false);
 
   const onHideNavBar = () => {
     setnavBarHidden((lastVal) => !lastVal);
