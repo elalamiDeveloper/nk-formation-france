@@ -1,10 +1,11 @@
 import './connect-page.css';
-import Jump from 'react-reveal/Jump';
+
+import { JackInTheBox } from 'react-awesome-reveal';
 
 const ConnectPage = () => {
   return (
     <div className="connect-page">
-      <Jump>
+      <JackInTheBox>
         <form className="connect-form">
           <div className="item">
             <label htmlFor="identifiant">Identifiant</label>
@@ -18,7 +19,7 @@ const ConnectPage = () => {
 
           <button className="btn-submit">Connexion</button>
         </form>
-      </Jump>
+      </JackInTheBox>
     </div>
   );
 };

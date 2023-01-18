@@ -1,8 +1,7 @@
 import './formations-page.css';
 import formations from '../../data/formations.json';
 import { FormationItem } from '../../utils/componentsLinks';
-import LightSpeed from 'react-reveal/LightSpeed';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom, Slide } from 'react-awesome-reveal';
 
 const FormationsPage = () => {
   const formationsWeb = formations.filter(
@@ -27,9 +26,8 @@ const FormationsPage = () => {
         <h1>Catalogue de formations</h1>
       </Zoom>
       <div className="gender-item">
-        <LightSpeed left>
-          <h2>Bureautique</h2>
-        </LightSpeed>
+        <h2>Bureautique</h2>
+
         <ul className="list-formations">
           {formationsBureautique.map((formation) => (
             <FormationItem key={formation.id} formation={formation} />
@@ -38,12 +36,11 @@ const FormationsPage = () => {
       </div>
 
       <div className="gender-item">
-        <LightSpeed left>
+        <Slide>
           <h2>Management</h2>
-        </LightSpeed>
+        </Slide>
 
         <ul className="list-formations">
-          {' '}
           {formationsManagement.map((formation, i) => (
             <FormationItem key={formation.id} formation={formation} />
           ))}
@@ -51,11 +48,11 @@ const FormationsPage = () => {
       </div>
 
       <div className="gender-item">
-        <LightSpeed left>
+        <Slide>
           <h2>Publication assistée par ordinateur (PAO)</h2>
-        </LightSpeed>
+        </Slide>
+
         <ul className="list-formations">
-          {' '}
           {formationsPAO.map((formation) => (
             <FormationItem key={formation.id} formation={formation} />
           ))}
@@ -63,12 +60,11 @@ const FormationsPage = () => {
       </div>
 
       <div className="gender-item">
-        <LightSpeed left>
+        <Slide>
           <h2>Web</h2>
-        </LightSpeed>
+        </Slide>
 
         <ul className="list-formations">
-          {' '}
           {formationsWeb.map((formation) => (
             <FormationItem key={formation.id} formation={formation} />
           ))}

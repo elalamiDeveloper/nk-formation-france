@@ -1,7 +1,6 @@
 import './contact-page.css';
 import { ContactForm } from '../../utils/componentsLinks';
-import LightSpeed from 'react-reveal/LightSpeed';
-import Zoom from 'react-reveal/Zoom';
+import { Zoom, Slide } from 'react-awesome-reveal';
 
 const ContactPage = () => {
   return (
@@ -10,7 +9,8 @@ const ContactPage = () => {
         <Zoom left cascade>
           <h1>Nous contacter.</h1>
         </Zoom>
-        <LightSpeed left>
+
+        <Slide>
           <p>
             Remplissez le formulaire et nos responsables pédagogiques vous
             répondront sous 30 min maximum !
@@ -32,7 +32,7 @@ const ContactPage = () => {
             Partenariat <br />
             Autres questions ?
           </p>
-        </LightSpeed>
+        </Slide>
       </div>
 
       <ContactForm />

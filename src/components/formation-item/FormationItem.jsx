@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom';
 import './formation-item.css';
 
-import Reveal from 'react-reveal/Reveal';
+// import Reveal from 'react-reveal/Reveal';
+import { JackInTheBox } from 'react-awesome-reveal';
 
 const FormationItem = ({ formation }) => {
   const { title, preRequis, objectifs } = formation;
 
   return (
-    <Reveal effect="fadeInUp">
-      <div className="formation-item">
+    <JackInTheBox className="formation-item">
+      <div>
         <h3>{title}</h3>
         <div className="formation-item-ii">
           <h4>Pré-requis</h4>
@@ -26,7 +27,7 @@ const FormationItem = ({ formation }) => {
           </Link>
         </div>
       </div>
-    </Reveal>
+    </JackInTheBox>
   );
 };
 

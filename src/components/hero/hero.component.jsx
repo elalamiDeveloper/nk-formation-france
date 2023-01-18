@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './hero.styles.css';
-import Zoom from 'react-reveal/Zoom';
+// import Zoom from 'react-reveal/Zoom';
+import { Zoom } from 'react-awesome-reveal';
 
 import heroImg from '../../assets/hero-img.jpg';
 

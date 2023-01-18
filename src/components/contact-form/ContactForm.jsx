@@ -74,6 +74,7 @@ const ContactForm = () => {
 
       <div className="input-team">
         <label htmlFor="nom">Nom</label>
+
         <input
           type="text"
           name="nom"

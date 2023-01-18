@@ -1,17 +1,18 @@
 import './about-us.css';
 import aboutImage from '../../assets/about-us.jpg';
-import Zoom from 'react-reveal/Zoom';
-import Roll from 'react-reveal/Roll';
-import LightSpeed from 'react-reveal/LightSpeed';
+import { Zoom, Slide, Rotate } from 'react-awesome-reveal';
+// import Zoom from 'react-reveal/Zoom';
+// import Roll from 'react-reveal/Roll';
+// import LightSpeed from 'react-reveal/LightSpeed';
 
 const AboutUsPage = () => {
   return (
     <div className="about-us container section-padding">
       <div className="text">
-        <Zoom left cascade>
+        <Zoom>
           <h1>Qui sommes nous.</h1>
         </Zoom>
-        <LightSpeed left>
+        <Slide>
           <p>
             <strong>NK FORMATION</strong> est un organisme certifié qualité par
             le Référentiel National Qualité Qualiopi (loi du 5 septembre 2018,
@@ -32,14 +33,14 @@ const AboutUsPage = () => {
             jusqu’au passage de la certification pour vous permettre de vous
             former sereinement.
           </p>
-        </LightSpeed>
+        </Slide>
       </div>
 
-      <Roll right>
+      <Rotate direction="left">
         <div className="img">
           <img src={aboutImage} alt="" />
         </div>
-      </Roll>
+      </Rotate>
     </div>
   );
 };
