@@ -1,9 +1,6 @@
 import './about-us.css';
 import aboutImage from '../../assets/about-us.jpg';
 import { Zoom, Slide, Rotate } from 'react-awesome-reveal';
-// import Zoom from 'react-reveal/Zoom';
-// import Roll from 'react-reveal/Roll';
-// import LightSpeed from 'react-reveal/LightSpeed';
 
 const AboutUsPage = () => {
   return (

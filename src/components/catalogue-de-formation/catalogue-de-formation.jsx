@@ -1,6 +1,7 @@
 import './catalogue-de-formation.style.css';
 import formations from '../../data/formations.json';
 import { FormationItem } from '../../utils/componentsLinks';
+import { Zoom } from 'react-awesome-reveal';
 
 const randomFormations = (formations, nbrFormations) => {
   const newFormations = [];
@@ -17,8 +18,10 @@ const CatalogueDeFormation = () => {
   return (
     <div className="container section-padding section-catalogue-de-formation">
       <div className="text">
-        <h2>Acquérir des compétences professionnelles recherchées</h2>
-        <p>faites votre choix parmi nos cours en ligne...</p>
+        <Zoom>
+          <h2>Acquérir des compétences professionnelles recherchées</h2>
+          <p>faites votre choix parmi nos cours en ligne...</p>
+        </Zoom>
       </div>
 
       <div className="list-formation">
