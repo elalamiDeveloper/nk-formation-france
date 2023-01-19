@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './hero.styles.css';
 import { Zoom, Slide } from 'react-awesome-reveal';
 
@@ -12,15 +11,15 @@ const Hero = () => {
           <h1>
             <Zoom>Nouvelle année, nouvelles évolutions de carrière</Zoom>
           </h1>
-          <p>
-            <Slide>
+          <Slide>
+            <p>
               Atteignez vos objectifs d'apprentissage et profitez de nos
               formations
-            </Slide>
-            <span className="gratuit">
-              <Slide>Gratuitement via votre CPF</Slide>
-            </span>{' '}
-          </p>
+              <span className="gratuit" style={{ display: 'block' }}>
+                Gratuitement via votre CPF
+              </span>
+            </p>
+          </Slide>
           <Slide>
             <a href="/contact" className="primary-button">
               Faire Une Demande
