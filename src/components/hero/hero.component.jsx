@@ -22,10 +22,9 @@ const Hero = () => {
             </span>{' '}
           </p>
           <Slide>
-            <Link to="/contact" className="primary-button">
-              {' '}
+            <a href="/contact" className="primary-button">
               Faire Une Demande
-            </Link>
+            </a>
           </Slide>
         </div>
 

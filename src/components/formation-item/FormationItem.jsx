@@ -22,9 +22,9 @@ const FormationItem = ({ formation }) => {
           {objectifs.map((objectif) => (
             <p>{objectif}</p>
           ))}
-          <Link to="/contact" className="btn-details">
+          <a href="/contact" className="btn-details">
             Détails de la formation
-          </Link>
+          </a>
         </div>
       </div>
     </JackInTheBox>
